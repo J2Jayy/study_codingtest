@@ -1,0 +1,7 @@
+N = int(input()) #모험가 수
+fearlist = list(map(int,input().split()))
+fearlist.sort()
+count = 0
+mannum = 0
+for i in range(N):
+    
