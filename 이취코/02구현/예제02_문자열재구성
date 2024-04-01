@@ -1,0 +1,10 @@
+S = list(input())
+S1 = []
+summ = 0
+for i in S:
+    if i.isdigit():
+        summ += int(i)
+    else:
+        S1.append(i)
+S1.sort()
+print("".join(S1)+str(summ))
